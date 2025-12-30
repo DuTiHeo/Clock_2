@@ -8,10 +8,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Clock_2">
-        <!-- Activity kết quả -->
-        <activity
-            android:name=".ResultActivity"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
