@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -34,9 +33,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, ResultActivity.class);
             intent.putExtra("FAHRENHEIT",fahrenheit );
             startActivity(intent);
-
+            //nếu gọi lệnh finish(); thì khi ấn nút back trên đt sẽ k quay về được mà sẽ thoát ra luôn
         });
-
-
     }
 }
